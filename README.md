@@ -3,6 +3,8 @@ everify.sh
 
 Verify Envato Purchase codes like a boss - in a terminal.
 
+![screenshot of everify.sh](https://raw.githubusercontent.com/primozcigler/everify.sh/master/everify.png)
+
 ### Setup
 
 1. Download the file `everify.sh` to your computer.
