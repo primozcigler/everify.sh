@@ -12,7 +12,7 @@ Verify Envato Purchase codes like a boss - in a terminal.
 1. Run `$ chmod +x everify.sh`
 1. Run it in the terminal using `$ sh everify.sh`.
 
-If you want you can move it to the `/usr/locl/bin/` so you can run it from anywhere in the filesystem.
+If you want you can move it to the `/usr/local/bin/` so you can run it from anywhere in the filesystem.
 
 ### Dependencies
 
