@@ -14,6 +14,18 @@ Verify Envato Purchase codes like a boss - in a terminal.
 
 If you want you can move it to the `/usr/local/bin/` so you can run it from anywhere in the filesystem.
 
+### Use
+
+```sh
+$ everify.sh # will prompt of the purchase code
+```
+
+or
+
+```sh
+$ everify.sh e4e91153-faf0-4483-8273-882ee0686787 # first argument is the purchase code
+```
+
 ### Dependencies
 
 * curl

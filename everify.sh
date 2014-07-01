@@ -4,8 +4,13 @@
 USERNAME='your_envato_username'
 APIKEY='your_envato_api_key'
 
-# read variable from the stdin
-read -p 'Enter purchase code: ' purchase_code
+# read variable from the stdin if needed, first argument is used if not empty
+if [ -z "$1" ]
+then
+	read -p 'Enter purchase code: ' purchase_code
+else
+	purchase_code="$1"
+fi
 
 # main part, here we get the response from the Envato APIs using curl library
 response=`curl --user-agent 'everify.sh by ProteusThemes' -s http://marketplace.envato.com/api/edge/$USERNAME/$APIKEY/verify-purchase:$purchase_code.json`
