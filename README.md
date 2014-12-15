@@ -17,7 +17,7 @@ If you want you can move it to the `/usr/local/bin/` so you can run it from anyw
 ### Use
 
 ```sh
-$ everify.sh # will prompt of the purchase code
+$ everify.sh # will prompt for the purchase code
 ```
 
 or
