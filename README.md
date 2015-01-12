@@ -31,7 +31,7 @@ $ everify.sh e4e91153-faf0-4483-8273-882ee0686787 # first argument is the purcha
 * curl
 * python (just for pretty json format, which can be disabled)
 
-Tested on Ubuntu 13.10. If you have a problem using this, please open up an issue in this repo.
+Tested on Ubuntu 13.10 and OS X Yosemite.  If you have a problem using this, please open up an issue in this repo.
 
 ### Created by
 
